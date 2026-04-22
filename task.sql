@@ -5,5 +5,5 @@ CREATE INDEX Name ON Products (Name);
 
 CREATE INDEX Email ON Customers (Email); 
 
-CREATE INDEX idx_orders ON Orders (CustomerID); 
+CREATE INDEX CustomerID ON Orders (CustomerID); 
 
